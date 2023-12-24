@@ -1,7 +1,10 @@
 h1 {
-  font-family: "Alata", sans-serif;
-  font-size: 96px;
   color: #d90429;
+  text-shadow: 4px 4px 0px #000;
+  font-family: "Alata";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-transform: uppercase;
-  text-shadow: 5px 4px 2px #000;
 }
