@@ -1,4 +1,4 @@
-.title {
+.main-title {
   color: #d90429;
   text-shadow: 4px 4px 0px #000;
   font-family: "Alata";
@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 
-.title.-second{
+.main-title.-second{
   color: #f2f2f2;
   font-size: 50px;
   text-shadow: none;
