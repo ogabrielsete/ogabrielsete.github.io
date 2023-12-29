@@ -4,14 +4,20 @@
   font-size: 25px;
   font-weight: 400;
   color: white;
+  align-items: center;
 }
 
 .skill-tech .icon {
   margin-right: 16px;
+  width: 90px;
 }
 
 .skill-tech .right {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.skill-tech .title {
+  margin-bottom: 10px;
 }
