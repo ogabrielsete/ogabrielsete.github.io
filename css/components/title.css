@@ -8,3 +8,9 @@
   line-height: normal;
   text-transform: uppercase;
 }
+
+.title.-second{
+  font-size: 50px;
+  text-shadow: none;
+  text-align: center;
+}
