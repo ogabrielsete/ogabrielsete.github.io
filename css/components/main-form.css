@@ -2,6 +2,10 @@
   padding: 50px 40px;
 }
 
+.main-form .main-title {
+  margin-bottom: 10px;
+}
+
 .main-form .main-input {
   margin-bottom: 15px;
 }
