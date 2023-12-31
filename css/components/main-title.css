@@ -9,7 +9,14 @@
   text-transform: uppercase;
 }
 
-.main-title.-second{
+.main-title.-second {
+  color: #f2f2f2;
+  font-size: 50px;
+  text-shadow: none;
+  text-align: center;
+}
+
+.main-title.-three {
   color: #f2f2f2;
   font-size: 50px;
   text-shadow: none;
