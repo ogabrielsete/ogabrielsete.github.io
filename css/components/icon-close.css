@@ -10,3 +10,8 @@
 .icon-close:hover {
   transform: scale(1.2);
 }
+
+/* Mantenha a transição suave para o tamanho do menu */
+.menu {
+  transition: height 0.3s ease-in-out;
+}

@@ -21,10 +21,7 @@
 
 @media (max-width: 980px) {
   .main-header > .menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -33,6 +30,20 @@
     width: 100%;
     height: 100%;
     padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .main-header .menu.open {
+    display: flex;
+  }
+
+  .main-header .menu a {
+    display: block; /* Mostrar os itens de navegação */
+    color: white;
+    text-decoration: none;
+    padding: 10px;
   }
 
   .main-header .main-action {
