@@ -13,6 +13,10 @@
   .main-header > .menu {
     display: block;
   }
+
+  .main-header .icon-close {
+    display: none;
+  }
 }
 
 @media (max-width: 980px) {
@@ -33,6 +37,14 @@
 
   .main-header .main-action {
     display: flex;
+  }
+
+  .main-header .icon-close {
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    padding-right: 10px;
   }
 
   .main-header > .icon-menu {
